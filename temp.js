@@ -1,7 +1,3 @@
-function exec(func, arg) {
-  func(arg);
-}
-
-exec((something) => {
+window.setTimeout((something) => {
   console.log(something);
-}, 'Greeting, everyone!');
+}, 3000, 'Greeting, everyone!');
